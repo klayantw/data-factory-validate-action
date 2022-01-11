@@ -11,7 +11,7 @@ npm install @microsoft/azure-data-factory-utilities
 echo "Installation completed."
 
 echo "Validating $dataFactoryResourceId at $(pwd)..."
-node ./node_modules/@microsoft/azure-data-factory-utilities/lib/index validate $(pwd) $dataFactoryResourceId
+node ~/node_modules/@microsoft/azure-data-factory-utilities/lib/index validate $(pwd) $dataFactoryResourceId
 status=$?
 
 if [ $status -eq 0 ]
